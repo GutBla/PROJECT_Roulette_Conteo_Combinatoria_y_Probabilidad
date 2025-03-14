@@ -7,8 +7,6 @@
 
 [![Status: Completed](https://img.shields.io/badge/Status-Completed-verde.svg?logo=&style=popout)](#)
 
-Estado: Listo
-
 ## Descripción del proyecto
 
 El proyecto "Roulette: Conteo, Combinatoria y Probabilidad" es una aplicación interactiva basada en el juego de la ruleta, que permite explorar conceptos clave de la matemática discreta, como el conteo, la combinatoria y la probabilidad. Mediante simulaciones y cálculos, los usuarios pueden aprender y experimentar con las probabilidades de diferentes eventos en la ruleta, así como resolver problemas relacionados con el factorial, las permutaciones y las combinaciones.
@@ -68,7 +66,11 @@ java Main
 **Fórmula**:
 
 $$
-⁍
+\text{Total de opciones} = m + n
+$$
+
+$$
+\mathrm{Total\ de\ opciones} = m + n
 $$
 
 **Ejemplo**: Si tienes 3 camisetas rojas y 4 camisetas azules, puedes elegir una de las 7 (3 + 4 = 7).
@@ -84,8 +86,7 @@ $$
 **Fórmula**:
 
 $$
-\text{Total de combinaciones} = m \times n
-
+\text{Total de opciones} = m + n
 $$
 
 **Ejemplo**: Si tienes 3 pantalones y 4 camisetas, puedes combinarlos en 12 formas (3 × 4 = 12).
