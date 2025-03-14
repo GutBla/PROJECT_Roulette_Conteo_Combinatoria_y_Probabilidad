@@ -69,9 +69,6 @@ $$
 \text{Total de opciones} = m + n
 $$
 
-$$
-\mathrm{Total\ de\ opciones} = m + n
-$$
 
 **Ejemplo**: Si tienes 3 camisetas rojas y 4 camisetas azules, puedes elegir una de las 7 (3 + 4 = 7).
 
@@ -86,8 +83,9 @@ $$
 **Fórmula**:
 
 $$
-\text{Total de opciones} = m + n
+\text{Total de opciones} = m \times n
 $$
+
 
 **Ejemplo**: Si tienes 3 pantalones y 4 camisetas, puedes combinarlos en 12 formas (3 × 4 = 12).
 
@@ -214,78 +212,78 @@ Apuestas comunes y la probabilidad asociada a cada una:
 
 - **Probabilidad de que salga rojo o negro:** En la ruleta europea, hay 18 números rojos y 18 números negros. El 0 no cuenta como ninguno. La probabilidad de que salga un número rojo o negro es:
 
-  $$
-  P(\text{Rojo}) = \frac{18}{37} \approx 0.486 = 48.6\%
-  $$
+$$
+P(\text{Rojo}) = \frac{18}{37} \approx 0.486 = 48.6\%
+$$
 
-  $$
-  P(\text{Negro}) = \frac{18}{37} \approx 0.486 = 48.6\%
-  $$
+$$
+P(\text{Negro}) = \frac{18}{37} \approx 0.486 = 48.6\%
+$$
 
 - **Probabilidad de números pares o impares**: Existen 18 números pares y 18 números impares. El 0 no se incluye en esta categoría. Las probabilidades son:
 
-  $$
-  P(\text{Impar}) = \frac{18}{37} \approx 0.486 = 48.6\%
-  $$
+$$
+P(\text{Impar}) = \frac{18}{37} \approx 0.486 = 48.6\%
+$$
 
-  $$
-  P(\text{Par}) = \frac{18}{37} \approx 0.486 = 48.6\%
-  $$
+$$
+P(\text{Par}) = \frac{18}{37} \approx 0.486 = 48.6\%
+$$
 
 - **Probabilidad de números altos (19-36) o bajos (1-18):** Al igual que las anteriores, hay 18 números altos (19-36) y 18 números bajos (1-18). Nuevamente, el 0 no se incluye:
 
-  $$
-  P(\text{Número alto}) = \frac{18}{37} \approx 0.486 = 48.6\%
-  $$
+$$
+P(\text{Número alto}) = \frac{18}{37} \approx 0.486 = 48.6\%
+$$
 
-  $$
-  P(\text{Número bajo}) = \frac{18}{37} \approx 0.486 = 48.6\%
-  $$
+$$
+P(\text{Número bajo}) = \frac{18}{37} \approx 0.486 = 48.6\%
+$$
 
 - **Probabilidad de docenas**: Los números están agrupados en tres docenas (1-12, 13-24, 25-36). La probabilidad de que la bola caiga en una docena específica es:
 
-  $$
-  P(\text{Docena}) = \frac{12}{37} \approx 0.324 = 32.4\%
-  $$
+$$
+P(\text{Docena}) = \frac{12}{37} \approx 0.324 = 32.4\%
+$$
 
 - **Probabilidad de columnas:** En la ruleta hay tres columnas, cada una de las cuales contiene 12 números. La probabilidad de que salga un número de una columna específica es:
 
-  $$
-  P(\text{Columna}) = \frac{12}{37} \approx 0.324 = 32.4\%
-  $$
+$$
+P(\text{Columna}) = \frac{12}{37} \approx 0.324 = 32.4\%
+$$
 
 - **Probabilidad de línea (6 números):** La apuesta en línea se realiza en un grupo de 6 números (dos filas de 3 números cada una). Hay 6 apuestas en una línea.
 
-  $$
-  P(\text{Línea}) = \frac{6}{37} \approx 0.162 = 16.2\%
-  $$
+$$
+P(\text{Línea}) = \frac{6}{37} \approx 0.162 = 16.2\%
+$$
 
 - **Probabilidad del cuadro (4 números):** El cuadro (o "corner") consiste en apostar en un grupo de 4 números que comparten una esquina. Cada cuadro cubre 4 números.
 
-  $$
-  P(\text{Cuadro}) = \frac{4}{37} \approx 0.108 = 10.8\%
-  $$
+$$
+P(\text{Cuadro}) = \frac{4}{37} \approx 0.108 = 10.8\%
+$$
 
 - **Probabilidad del calle (3 números):** La apuesta en calle consiste en apostar en 3 números en una fila vertical. Cada calle cubre 3 números.
 
-  $$
-  P(\text{Calle}) = \frac{3}{37} \approx 0.081 = 8.1\%
-  $$
+$$
+P(\text{Calle}) = \frac{3}{37} \approx 0.081 = 8.1\%
+$$
 
 - **Probabilidad del caballo (2 números) :** La apuesta de caballo consiste en apostar en dos números adyacentes. Cada caballo cubre 2 números.
 
-  $$
-  P(\text{Caballo}) = \frac{2}{37} \approx 0.054 = 5.4\%
-  $$
+$$
+P(\text{Caballo}) = \frac{2}{37} \approx 0.054 = 5.4\%
+$$
 
 - **Pleno (Número Único)**: Apostar a un solo número tiene una baja probabilidad de éxito, ya que la ruleta tiene 37 números posibles (del 1 al 36 más el 0). La probabilidad de que salga un número específico es:
 
-  $$
-  P(\text{Número único}) = \frac{1}{37} \approx 0.027 = 2.7\%
-  $$
-
+$$
+P(\text{Número único}) = \frac{1}{37} \approx 0.027 = 2.7\%
+$$
 
 ### Tabla de Probabilidades
+
 
 | Tipo de Apuesta | Fórmula | Probabilidad |
 | --- | --- | --- |
@@ -389,8 +387,7 @@ La probabilidad de acertar exactamente **1 vez** en **10 jugadas** es aproximada
 
 | Número de Aciertos (k) | Coeficiente Binomial $(\binom{10}{k})$ | Probabilidad de Acierto $p^k$ | Probabilidad de No Acierto $(1-p)^{10-k}$ | Probabilidad Total $P(X = k)$ |
 | --- | --- | --- | --- | --- |
-| 0 | $\binom{10}{0}
-  = 1$ | $0.027^0 = 1$ | $0.973^{10} \approx 0.761$ | $P(X = 0) \approx 76.1\%$ |
+| 0 | $\binom{10}{0} = 1$ | $0.027^0 = 1$ | $0.973^{10} \approx 0.761$ | $P(X = 0) \approx 76.1\%$ |
 | 1 | $\binom{10}{1} = 10$ | $0.027^1 = 0.027$ | $0.973^9 \approx 0.782$ | $P(X = 1) \approx 21.1\%$ |
 | 2 | $\binom{10}{2} = 45$ | $0.027^2 \approx 0.000729$ | $0.973^8 \approx 0.803$ | $P(X = 2) \approx 2.64\%$ |
 | 3 | $\binom{10}{3} = 120$ | $0.027^3 \approx 1.97 \times 10^{-5}$ | $0.973^7 \approx 0.826$ | $P(X = 3) \approx 0.195\%$ |
@@ -400,8 +397,8 @@ La probabilidad de acertar exactamente **1 vez** en **10 jugadas** es aproximada
 | 7 | $\binom{10}{7} = 120$ | $0.027^7 \approx 1.05 \times 10^{-11}$ | $0.973^3 \approx 0.921$ | $P(X = 7) \approx 0.0000001\%$ |
 | 8 | $\binom{10}{8} = 45$ | $0.027^8 \approx 2.84 \times 10^{-13}$ | $0.973^2 \approx 0.947$ | $P(X = 8) \approx 0.000000001\%$ |
 | 9 | $\binom{10}{9} = 10$ | $0.027^9 \approx 7.66 \times 10^{-15}$ | $0.973^1 \approx 0.973$ | $P(X = 9) \approx 0.000000000007\%$ |
-| 10 | $\binom{10}{10} = 1$ | $0.027^{10} \approx 2.07 \times 10^{-16}$ | $0.973^0 = 1$ | $P(X = 10) \approx 
-  0.00000000000002\%$ |
+| 10 | $\binom{10}{10} = 1$ | $0.027^{10} \approx 2.07 \times 10^{-16}$ | $0.973^0 = 1$ | $P(X = 10) \approx 0.00000000000002\%$ |
+
 
 ![Gráfico Coeficiente Binomial en 10 Tiradas.png](images/Grfico_Coeficiente_Binomial_en_10_Tiradas.png)
 
@@ -410,10 +407,23 @@ La probabilidad de acertar exactamente **1 vez** en **10 jugadas** es aproximada
 La probabilidad de **no acertar en una tirada** es $1 - p$, donde $p = \frac{1}{37} \approx 0.027$. Por lo tanto, la probabilidad de no acertar en una tirada es:
 
 $$
-
 P(\text{no acierto en una tirada}) = 1 - 0.027 = 0.973
+$$
+
+La probabilidad de no acertar en **n tiradas** seguidas sería:
 
 $$
+P(\text{ningún acierto en } n \text{ tiradas}) = (0.973)^n
+$$
+
+### **Probabilidad de No Acierto en n Jugadas**
+
+La probabilidad de **no acertar en una tirada** es $1 - p$, donde $p = \frac{1}{37} \approx 0.027$. Por lo tanto, la probabilidad de no acertar en una tirada es:
+
+$$
+P(\text{no acierto en una tirada}) = 1 - 0.027 = 0.973
+$$
+
 
 La probabilidad de no acertar en **n tiradas** seguidas sería:
 
@@ -426,53 +436,52 @@ $$
 La probabilidad de acertar al menos una vez en n tiradas es el complemento de la probabilidad de no acertar ninguna vez. Esto se calcula como:
 
 $$
-P(\text{al menos un acierto en } n \text{ tiradas}) = 1 - (0.973)^n
+P(\text{al menos un acierto en n tiradas}) = 1 - (0.973)^n
 $$
 
 ### **Probabilidad en diferentes Números de Tiradas**
 
 - Para n = 10:
 
-  $$
-  P(\text{al menos un acierto}) = 1 - (0.973)^{10} \approx 1 - 0.7683 = 0.2317 \quad \text{(23.17\%)}
-  $$
+$$
+P(\text{al menos un acierto}) = 1 - (0.973)^{10} \approx 1 - 0.7683 = 0.2317 \quad \text{(23.17\%)}
+$$
 
 - Para n = 20:
 
-  $$
-  P(\text{al menos un acierto}) = 1 - (0.973)^{20} \approx 1 - 0.5907 = 0.4093 \quad \text{(40.93\%)}
-  $$
+$$
+P(\text{al menos un acierto}) = 1 - (0.973)^{20} \approx 1 - 0.5907 = 0.4093 \quad \text{(40.93\%)}
+$$
 
 - Para n = 40:
 
-  $$
-  P(\text{al menos un acierto}) = 1 - (0.973)^{40} \approx 1 - 0.3489 = 0.6511 \quad \text{(65.11\%)}
-  $$
+$$
+P(\text{al menos un acierto}) = 1 - (0.973)^{40} \approx 1 - 0.3489 = 0.6511 \quad \text{(65.11\%)}
+$$
 
 - Para n = 80:
 
-  $$
-  P(\text{al menos un acierto}) = 1 - (0.973)^{80} \approx 1 - 0.1217 = 0.8783 \quad \text{(87.83\%)}
-  $$
+$$
+P(\text{al menos un acierto}) = 1 - (0.973)^{80} \approx 1 - 0.1217 = 0.8783 \quad \text{(87.83\%)}
+$$
 
 - Para n = 160:
 
-  $$
-  P(\text{al menos un acierto}) = 1 - (0.973)^{160} \approx 1 - 0.0147 = 0.9853 \quad \text{(98.53\%)}
-  $$
+$$
+P(\text{al menos un acierto}) = 1 - (0.973)^{160} \approx 1 - 0.0147 = 0.9853 \quad \text{(98.53\%)}
+$$
 
 - Para n = 320:
 
-  $$
-  P(\text{al menos un acierto}) = 1 - (0.973)^{320} \approx 1 - 0.0002 = 0.9998 \quad \text{(99.98\%)}
-  $$
+$$
+P(\text{al menos un acierto}) = 1 - (0.973)^{320} \approx 1 - 0.0002 = 0.9998 \quad \text{(99.98\%)}
+$$
 
 - Para n = 630:
 
-  $$
-  P(\text{al menos un acierto}) = 1 - (0.973)^{630} \approx 1 - 0.000001 = 0.999999 \quad \text{(99.99\%)}
-  $$
-
+$$
+P(\text{al menos un acierto}) = 1 - (0.973)^{630} \approx 1 - 0.000001 = 0.999999 \quad \text{(99.99\%)}
+$$
 
 ### **Tabla de Probabilidad de tener al menos un acierto**
 
